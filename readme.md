@@ -1,1 +1,1 @@
-Tämä kansio sisältää Web-tekniikan kurssin tiedostot.
+Tämä kansio sisältää Web-tekniikan kurssin palautettavat tiedostot.
