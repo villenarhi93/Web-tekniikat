@@ -13,4 +13,6 @@ function change() {
 
     let pallomeri = document.querySelector(".pallomeri");
     pallomeri.textContent = "www.pallomeri.net";
+
+    
 }
