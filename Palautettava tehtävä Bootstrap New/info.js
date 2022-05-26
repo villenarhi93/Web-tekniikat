@@ -7,7 +7,6 @@ button.addEventListener("mouseleave", change);
 // Napin tyylin muutos
 
 function change() {
-
     button.classList.toggle("strong");
 }
 
