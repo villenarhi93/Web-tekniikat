@@ -1,3 +1,7 @@
+let button = document.getElementById("button");
+
+button.addEventListener("click", change);
+
 function change() {
 
     // Sisällön manipulointi
