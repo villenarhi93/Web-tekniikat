@@ -4,8 +4,9 @@ button.addEventListener("click", add);
 button.addEventListener("mouseover", change);
 button.addEventListener("mouseleave", change);
 
+// Napin tyylin muutos
+
 function change() {
-    // Napin tyylin muutos
 
     button.classList.toggle("strong");
 }
