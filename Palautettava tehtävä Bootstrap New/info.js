@@ -1,14 +1,16 @@
 let button = document.getElementById("button");
 
-button.addEventListener("click", change);
+button.addEventListener("click", add);
 button.addEventListener("mouseover", change);
 button.addEventListener("mouseleave", change);
 
 function change() {
-
     // Napin tyylin muutos
 
     button.classList.toggle("strong");
+}
+
+function add() {
 
     // Sisällön manipulointi
 
