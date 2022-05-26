@@ -1,4 +1,7 @@
 function change() {
+
+    // Sisällön manipulointi
+    
     let textAuston = document.querySelector("#wiki1");
     textAuston.textContent = "https://fi.wikipedia.org/wiki/Auston_Matthews";
 
