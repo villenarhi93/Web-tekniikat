@@ -1,7 +1,7 @@
 function change() {
 
     // Sisällön manipulointi
-    
+
     let textAuston = document.querySelector("#wiki1");
     textAuston.textContent = "https://fi.wikipedia.org/wiki/Auston_Matthews";
 
@@ -17,5 +17,7 @@ function change() {
     let pallomeri = document.querySelector(".pallomeri");
     pallomeri.textContent = "www.pallomeri.net";
 
-    
+    let jatkoaika = document.querySelector(".pallomeri ul");
+
+    jatkoaika.textContent = "www.jatkoaika.com";
 }
