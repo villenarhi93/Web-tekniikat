@@ -27,5 +27,8 @@ function change() {
 
     textMcdavid.textContent = "https://fi.wikipedia.org/wiki/Connor_McDavid";
 
-    textAuston.appendSibling(textMcdavid);
+    let textList = document.querySelector("#textList");
+
+    textList.appendChild(textMcdavid);
+
 }
