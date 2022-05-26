@@ -20,15 +20,17 @@ function change() {
     // Nodejen kautta sisällön muokkaus
 
     let jatkoaika = pallomeri.nextElementSibling;
-
     jatkoaika.textContent = "www.jatkoaika.com";
 
     let textMcdavid = document.createElement("ul");
-
     textMcdavid.textContent = "https://fi.wikipedia.org/wiki/Connor_McDavid";
-
     let textList = document.querySelector("#textList");
-
     textList.appendChild(textMcdavid);
+
+    let photos = document.querySelector("#photoList");
+    let wikipedia = photos.querySelector(".suomikiekko");
+    let textWiki = document.createElement("ul");
+    textWiki.textContent = "https://fi.wikipedia.org/wiki/Connor_McDavid";
+    photos.insertBefore(textWiki, wikipedia);
 
 }
