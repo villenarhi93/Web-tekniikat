@@ -17,7 +17,7 @@ function change() {
     let pallomeri = document.querySelector(".pallomeri");
     pallomeri.textContent = "www.pallomeri.net";
 
-    let jatkoaika = document.querySelector(".pallomeri ul");
+    let jatkoaika = document.querySelector(".pallomeri ul:sibling");
 
     jatkoaika.textContent = "www.jatkoaika.com";
 }
