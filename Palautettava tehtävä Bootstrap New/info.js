@@ -33,4 +33,6 @@ function change() {
     textWiki.textContent = "https://fi.wikipedia.org/wiki/Connor_McDavid";
     photos.insertBefore(textWiki, wikipedia);
 
+    
+
 }
