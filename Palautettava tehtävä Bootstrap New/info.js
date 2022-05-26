@@ -27,5 +27,5 @@ function change() {
 
     textMcdavid.textContent = "https://fi.wikipedia.org/wiki/Connor_McDavid";
 
-    textAuston.appendChild(textMcdavid);
+    textAuston.appendSibling(textMcdavid);
 }
