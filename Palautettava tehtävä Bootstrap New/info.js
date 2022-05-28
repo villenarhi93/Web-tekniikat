@@ -10,13 +10,19 @@ function change() {
     button.classList.toggle("strong");
 }
 
-let h = document.querySelector("h3");
+let hTeksti = document.getElementById("teksti");
+let hKuvat = document.getElementById("kuvat");
 
-h.addEventListener("mouseenter", changeColor);
-h.addEventListener("mouseleave", changeColor);
+hTeksti.addEventListener("mouseenter", changeColor);
+hKuvat.addEventListener("mouseleave", changeColor);
 
-function changeColor() {
-    h.classList.toggle("textcolor");
+/**
+ * 
+ * @param {Event} event 
+ */
+function changeColor(event) {
+    let elem = event.currentTarget;
+    elem.classList.toggle("textcolor");
 }
 
 function add() {
