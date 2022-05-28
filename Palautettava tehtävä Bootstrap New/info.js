@@ -10,13 +10,13 @@ function change() {
     button.classList.toggle("strong");
 }
 
-let ul = document.querySelectorAll("ul");
+let h = document.querySelector("h3");
 
-ul.addEventListener("mouseenter", changeColor);
-ul.addEventListener("mouseleave", changeColor);
+h.addEventListener("mouseenter", changeColor);
+h.addEventListener("mouseleave", changeColor);
 
 function changeColor() {
-    div.classList.toggle("textcolor");
+    h.classList.toggle("textcolor");
 }
 
 function add() {
