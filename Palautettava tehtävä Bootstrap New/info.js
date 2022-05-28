@@ -1,13 +1,22 @@
+// Napin tyylin muutos
+
 let button = document.getElementById("button");
 
 button.addEventListener("click", add);
 button.addEventListener("mouseover", change);
 button.addEventListener("mouseleave", change);
 
-// Napin tyylin muutos
-
 function change() {
     button.classList.toggle("strong");
+}
+
+let ul = document.querySelectorAll("ul");
+
+ul.addEventListener("mouseenter", changeColor);
+ul.addEventListener("mouseleave", changeColor);
+
+function changeColor() {
+    div.classList.toggle("textcolor");
 }
 
 function add() {
