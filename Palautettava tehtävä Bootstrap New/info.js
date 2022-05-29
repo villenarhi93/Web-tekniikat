@@ -64,15 +64,12 @@ function add() {
 
 // RESTin lisäys
 
-const options = {
-	method: 'GET',
-	headers: {
-		'X-RapidAPI-Host': 'healthruwords.p.rapidapi.com',
-		'X-RapidAPI-Key': 'SIGN-UP-FOR-KEY'
-	}
-};
-
-fetch('https://healthruwords.p.rapidapi.com/v1/quotes/?t=Wisdom&maxR=1&size=medium&id=731', options)
-	.then(response => response.json())
-	.then(response => console.log(response))
-	.catch(err => console.error(err));
+fetch('https://yesno.wtf/api')
+    .then(response => response.json())
+    .then(
+        data => {
+            document.getElementById('print-here').innerHTML = "<h2>" + data.answer + "</h2>";
+            document.getElementById('print-here').innerHTML += "<img src=\"" + data.image + "\"/>";
+            document.getElementById('print-here').innerHTML += '<img src="' + data.image + '">';
+        }
+    );
