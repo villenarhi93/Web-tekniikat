@@ -5,3 +5,7 @@
 .textcolor {
     color: blue;
 }
+
+p {
+    margin-bottom: 0em;
+}
