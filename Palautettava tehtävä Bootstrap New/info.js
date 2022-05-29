@@ -38,9 +38,6 @@ function add() {
     let photoSource = document.querySelector("#kuvat");
     photoSource.textContent = "Kuvat";
 
-    let videoSource = document.querySelector("#videot");
-    videoSource.textContent = "Videot";
-
     let pallomeri = document.querySelector(".pallomeri");
     pallomeri.textContent = "www.pallomeri.net";
 
