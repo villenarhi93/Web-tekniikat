@@ -61,10 +61,10 @@ function add() {
 
 // RESTin lisäys
 
-fetch('https://yesno.wtf/api')
+fetch('https://friends-quotes-api.herokuapp.com/quotes/random')
     .then(response => response.json())
     .then(
         data => {
-            document.getElementById("quote").innerHTML = data.answer ;
+            document.getElementById("quote").innerHTML = data.quote ;
         }
     );
