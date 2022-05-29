@@ -65,6 +65,7 @@ fetch('https://friends-quotes-api.herokuapp.com/quotes/random')
     .then(response => response.json())
     .then(
         data => {
+            document.getElementById("character").innerHTML = data.character + ": ";
             document.getElementById("quote").innerHTML = data.quote ;
         }
     );
