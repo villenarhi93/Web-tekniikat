@@ -4,6 +4,7 @@ body {
 
 }
 
+
 .strong {
   font-weight: bold;
 }
@@ -61,3 +62,6 @@ h4 {
   transform: translate(-50%, -50%);
 }
 
+#firstDiv {
+  padding-top: 40px;
+}
