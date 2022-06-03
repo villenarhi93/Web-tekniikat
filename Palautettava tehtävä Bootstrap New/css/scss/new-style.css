@@ -1,0 +1,98 @@
+body {
+  background-color: #0CA1A8;
+  font-family: "Oswald", sans-serif;
+}
+body .strong {
+  font-weight: bold;
+}
+body .textcolor {
+  color: blue;
+}
+body p {
+  margin-bottom: 0em;
+}
+body h1 {
+  color: white;
+  text-align: center;
+  font-size: 54px;
+  padding: 10px;
+  font-weight: bold;
+}
+body h2 {
+  color: white;
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+body h3 {
+  color: white;
+  text-align: center;
+  font-size: 36px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+body h4 {
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+body #button {
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 8px;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+body #firstDiv {
+  padding-top: 40px;
+}
+body #carouselExampleIndicators {
+  padding-top: 20px;
+}
+body .navbar-nav {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    font-size: 14px;
+  }
+  body span {
+    padding-left: 10px;
+  }
+  body h1 {
+    font-size: 32px;
+  }
+  body h2 {
+    font-size: 28px;
+  }
+  body h3 {
+    font-size: 24px;
+  }
+  body h4 {
+    font-size: 20px;
+  }
+  body .navbar-nav {
+    flex-direction: row;
+    font-size: 18px;
+  }
+  body #button {
+    top: 80%;
+    left: 50%;
+    font-size: 14px;
+  }
+  body #quote {
+    padding-left: 0px;
+  }
+}
+
+/*# sourceMappingURL=new-style.css.map */
