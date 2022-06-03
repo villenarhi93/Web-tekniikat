@@ -51,7 +51,7 @@ h4 {
 }
 
 #button {
-  color: #75EFF5;
+  color:  white;
   text-align: center;
   display: inline-block;
   font-size: 18px;
@@ -75,6 +75,7 @@ h4 {
 .navbar-nav {
   font-size: 20px;
 }
+
 
 @media screen and (max-width: 992px) {
 
@@ -109,5 +110,9 @@ h4 {
     top: 80%;
     left: 50%;
     font-size: 14px;
+  }
+  
+  #quote {
+    padding-left: 0px;
   }
 }
