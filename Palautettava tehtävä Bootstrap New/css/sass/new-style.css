@@ -2,53 +2,44 @@ body {
   background-color: #0CA1A8;
   font-family: "Oswald", sans-serif;
 }
-
-.strong {
+body .strong {
   font-weight: bold;
 }
-
-.textcolor {
+body .textcolor {
   color: blue;
 }
-
-p {
+body p {
   margin-bottom: 0em;
 }
-
-/*# sourceMappingURL=new-style.css.map */
-h1 {
+body h1 {
   color: white;
   text-align: center;
   font-size: 54px;
   padding: 10px;
   font-weight: bold;
 }
-
-h2 {
+body h2 {
   color: white;
   text-align: center;
   font-size: 42px;
   font-weight: bold;
   padding-top: 20px;
 }
-
-h3 {
+body h3 {
   color: white;
   text-align: center;
   font-size: 36px;
   padding-top: 20px;
   font-weight: bold;
 }
-
-h4 {
+body h4 {
   color: white;
   text-align: center;
   font-size: 28px;
   padding-top: 20px;
   font-weight: bold;
 }
-
-#button {
+body #button {
   color: white;
   text-align: center;
   display: inline-block;
@@ -61,16 +52,13 @@ h4 {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-
-#firstDiv {
+body #firstDiv {
   padding-top: 40px;
 }
-
-#carouselExampleIndicators {
+body #carouselExampleIndicators {
   padding-top: 20px;
 }
-
-.navbar-nav {
+body .navbar-nav {
   font-size: 20px;
 }
 
@@ -78,39 +66,31 @@ h4 {
   body {
     font-size: 14px;
   }
-
-  .navbar-nav {
+  body span {
+    padding-left: 10px;
+  }
+  body h1 {
+    font-size: 32px;
+  }
+  body h2 {
+    font-size: 28px;
+  }
+  body h3 {
+    font-size: 24px;
+  }
+  body h4 {
+    font-size: 20px;
+  }
+  body .navbar-nav {
     flex-direction: row;
     font-size: 18px;
   }
-
-  span {
-    padding-left: 10px;
-  }
-
-  h1 {
-    font-size: 32px;
-  }
-
-  h2 {
-    font-size: 28px;
-  }
-
-  h3 {
-    font-size: 24px;
-  }
-
-  h4 {
-    font-size: 20px;
-  }
-
-  #button {
+  body #button {
     top: 80%;
     left: 50%;
     font-size: 14px;
   }
-
-  #quote {
+  body #quote {
     padding-left: 0px;
   }
 }
