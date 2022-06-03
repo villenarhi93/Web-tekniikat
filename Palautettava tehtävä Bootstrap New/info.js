@@ -52,7 +52,7 @@ function add() {
     textList.appendChild(textMcdavid);
 
     let photos = document.querySelector("#photoList");
-    let wikipedia = photos.querySelector(".suomikiekko");
+    let wikipedia = photos.querySelector(".ul2");
     let textWiki = document.createElement("ul");
     textWiki.textContent = "https://fi.wikipedia.org/wiki/Connor_McDavid";
     photos.insertBefore(textWiki, wikipedia);
