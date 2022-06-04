@@ -1,0 +1,10 @@
+Font-styles:
+'Oswald', sans-serif
+Font-colors:
+white
+black
+blue
+Background-color:
+#0CA1A8
+Navbar-color:
+white
