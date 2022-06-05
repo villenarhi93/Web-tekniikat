@@ -8,7 +8,7 @@ body .strong {
 body .textcolor {
   color: blue;
 }
-body p {
+body div + p {
   margin-bottom: 0em;
 }
 body h1 {
