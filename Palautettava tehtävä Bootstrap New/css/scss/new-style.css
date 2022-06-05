@@ -64,6 +64,10 @@ body .navbar-nav {
 body .infoDivs {
   padding-top: 10px;
 }
+body img {
+  max-width: 100%;
+  height: auto;
+}
 
 @media screen and (max-width: 992px) {
   body {
